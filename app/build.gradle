@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.vusal.chat'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.vusal.chat'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
